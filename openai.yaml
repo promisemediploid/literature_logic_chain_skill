@@ -1,0 +1,8 @@
+interface:
+  display_name: "Literature Logic Chain"
+  short_description: "把论文还原成完整因果逻辑链，并生成可交互的蓝色系 HTML 图谱。"
+  brand_color: "#2563EB"
+  default_prompt: "请使用 Literature Logic Chain，从头到尾拆解这篇论文：为什么这样做、每个模型/数据处理承担什么作用、不这样做会怎样，并生成可交互 HTML 逻辑链。"
+
+policy:
+  allow_implicit_invocation: true
